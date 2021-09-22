@@ -51,6 +51,7 @@ let package = Package(
         .define("SQLITE_ENABLE_FTS4"),
         .define("SQLITE_ENABLE_FTS5"),
         .define("SQLITE_ENABLE_JSON1"),
+        .define("SQLITE_ENABLE_MATH_FUNCTIONS"),
         .define("SQLITE_ENABLE_PREUPDATE_HOOK"),
         .define("SQLITE_ENABLE_RTREE"),
         .define("SQLITE_ENABLE_SESSION"),
